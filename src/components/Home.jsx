@@ -90,7 +90,6 @@ const Home = () => {
     setHistoryList(JSON.parse(localStorage.getItem("history"))?.slice(-3));
   };
 
-  console.log("test ");
   console.log(JSON.parse(localStorage.getItem("history")));
   console.log(historyList);
 
