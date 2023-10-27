@@ -95,7 +95,7 @@ const Home = () => {
   console.log(historyList);
 
   return (
-    <div className="weather-wrapper bg-blue-200 min-h-[100vh]">
+    <div className="weather-wrapper relative bg-blue-200 min-h-[100vh]">
       <Section>
         <h1 className="text-3xl md:text-4xl text-center mb-10 font-medium">
           Search Current Weather
@@ -215,7 +215,7 @@ const Home = () => {
               </>
             )}
           </div>
-          <div className="mt-10">
+          <div className="mt-10  mb-40 md:mb-20">
             <h3 className="text-2xl font-bold">Latest Search History</h3>
             <div>
               {historyList ? (
