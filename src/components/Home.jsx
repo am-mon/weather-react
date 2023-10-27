@@ -110,7 +110,8 @@ const Home = () => {
               name="country_code"
               id="country_code"
               placeholder="Enter country code"
-              className="rounded text-black outline-0 h-[45px] px-3 w-[100%] mr-3 mb-3 md:mb-0 leading-[45px] outline-none"
+              className="rounded text-black outline-0 h-[45px] px-3 w-[100%] mr-3 mb-3 md:mb-0 leading-[45px] outline-none uppercase"
+              maxLength={2}
             />
             <input
               type="text"

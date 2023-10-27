@@ -13,6 +13,11 @@
     padding-top: 50px;
   }
 }
+#country_code {
+  &::placeholder {
+    text-transform: none;
+  }
+}
 .custom-first-letter-cap {
   display: inline-block;
   &::first-letter {
