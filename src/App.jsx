@@ -1,4 +1,4 @@
-import Home from "./components/home";
+import Home from "./components/Home";
 import "./styles/style.css";
 
 const App = () => {
