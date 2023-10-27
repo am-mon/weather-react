@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Section from "./Section.jsx";
 import { BsSearch } from "react-icons/bs";
 import Loader from "./Loader.jsx";
+import Footer from "./Footer.jsx";
 
 const Home = () => {
   const api_key = "1baf41538ffb1d7b4b5560b86ccc414b";
@@ -281,6 +282,7 @@ const Home = () => {
           </div>
         </div>
       </Section>
+      <Footer />
     </div>
   );
 };
